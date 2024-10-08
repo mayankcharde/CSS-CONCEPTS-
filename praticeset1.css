@@ -1,0 +1,39 @@
+/* / MAKING TRAFFIC LIGHT  */
+/*  FROM MY2.HTML */
+#one{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 50%;
+}
+#two{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    border-radius: 50%;
+}
+#three{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%;
+}
+
+/********************************************************************  */
+
+/* QUESTION 2 */
+#navbar{
+    height: 60px;
+    background-color: black;
+    color:  white;
+}
+button{
+    background-color: yellow;
+}
+#logo{
+    color: yellow;
+    font-size: 25px;
+}
+a{
+    margin-right: 150px;
+}
