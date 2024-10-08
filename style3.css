@@ -1,0 +1,98 @@
+/*********************** FLEX PROPERTIES************************* */
+body {
+    text-align: center;
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+#container {
+    width: 500px;
+    height: 400px;
+    display: flex;
+    /* IN LEFT (DEFAULT) */
+    flex-direction: row;
+    /* SHIFT TOWARDS RIGHT (LAYOUT REVERSE) */
+    /* flex-direction: row-reverse; */
+    /* FOR MAKING IT IN COLOUMN */
+    /* flex-direction: column; */
+    /* FOR REVERSING USED COLOUMN REVERSE */
+    /* flex-direction: column-reverse; */
+    /* **********************************************************************88 */
+    /* SOME OTHER PROPERTIES */
+    justify-content: flex-end;
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    justify-content: space-between;
+
+    /* flex-wrap: wrap; */
+
+    /* align-items:center */
+    align-items: flex-start;
+}
+
+#box1 {
+    background-color: aqua;
+
+}
+
+#box2 {
+    background-color: pink;
+    height: 200px;
+    /* align-self: flex-end; */
+    /* flex-shrink: 0.5; */
+    flex-grow: 1;
+}
+
+#box3 {
+    background-color: blueviolet;
+    height: 75px;
+}
+
+#box4 {
+    background-color: blue;
+    /* align-self: flex-end; */
+}
+
+
+/* *********************************************************************** */
+/* <!-- PRATICESET 3 --> */
+/*  OUESTION 1 */
+#navbar {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    background-color: aquamarine;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* OUESTION 2 */
+.outer {
+    height: 400px;
+    width: 400px;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.inner {
+    height: 100px;
+    width: 100px;
+    background-color: chocolate;
+}
