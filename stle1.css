@@ -1,0 +1,99 @@
+h1 {
+    color: rgb(255, 71, 71);
+}
+
+p {
+    color: white;
+}
+
+button {
+    color: white(153, 127, 255);
+    background-color: magenta;
+}
+
+body {
+    background-color: black;
+}
+
+p {
+    text-align: center;
+    text-decoration: blue wavy underline;
+}
+
+
+h2 {
+    color: red;
+    font-weight: bold;
+}
+
+h3 {
+    color: red;
+    font-weight: lighter;
+}
+
+p {
+    font-family: Arial;
+}
+
+#one {
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: uppercase;
+    /* text-transform: lowercase; */
+    text-transform: capitalize;
+}
+h1 {
+    color: red;
+    font-weight: normal;
+    background-color: aquamarine;
+    border-width: 4px;
+    border-style: solid;
+    border-color: blue;
+    text-align: center;
+}
+div{
+    height: 35px;
+    background-color: pink;
+    width: 400px;
+    border-width: 3.5px;
+    border-style: solid; 
+    /* dooted , border examples of border */
+    border-color: brown;
+    text-align: center;
+    /* border-radius: 20px; */
+
+    /* for making circles */
+    /* border-radius: 50%; */
+
+    padding: 50px;
+    /* padding-top: 10px; */
+    margin: 25px;
+    margin-bottom: 35px;
+}
+
+div{
+        width: 100px;
+        height: 200px;
+        margin: 25px;
+        padding: 25px;
+        display: inline;
+        background-color: lightgreen(255, 71, 71);
+}
+#box2{
+    /*  THROUGH THIS PROPERTY BOX 2 WILL BE GAYAB */
+        display: none; 
+
+      /* THERE IS A SPACE AVAILABLE IN PLACE OF BOX 2 */
+        visibility: hidden;
+        background-color: rgba(0, 0,255, 0.5);
+}
+#box1{
+    background-color: rgba(0, 0, 255, 0.75);
+    height: 100px;
+    width: 200px;
+    background-color: green;
+    font-size: 10px;
+}
+#box3{
+    background-color: rgba(0, 0, 255, 1);
+}
