@@ -1,0 +1,97 @@
+/* .contentbox{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#content{
+    height: 500px;
+}
+#navbar{
+    height: 60px;
+    background-color: black;
+    color:  white;
+}
+button{
+    background-color: white
+}
+#logo{
+    color: darkgoldenrod;
+    font-size: 25px;
+}
+a{
+    margin-right: 150px;
+}
+#box{
+    height: 100px;
+    width: 300px;
+    background-color: green;
+    font-size: 10px;
+    margin-bottom: 40%;
+}
+/*  */
+
+********************************************************************************************
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+    color: black;
+}
+#mayank1{
+    /*  MEANS BY DEFAULT */
+     position: static; 
+     /* z-index: 10; */
+     height: 200px;
+     width: 100px;
+
+    /* FOR ADDING AN IMAGE */
+     background-image: url("animal phot.jpg");
+     background-size: cover;
+}
+#mayank2{
+    /* ELEMENT IS RELATIVE TO ITSELF(TOP,RIGHT,BOTTOM,LEFT) */
+    position: relative;
+    top: 10px;
+    left: 10px;
+    /* AGAR KISI KO KISI KE UPAR OVERLAP KRNA HO TO  */
+    /* z-index: 30; */
+
+    height: 100px;
+    width: 100px;
+}
+#mayank3{
+    position: absolute;
+    /* top: 10px; */
+    left: 20px;
+    height: 100px;
+    width: 100px;
+    bottom: 40px;
+}
+#mayank4{
+    /* THE POSITION IS FIXED */
+    /* THIS IS IMP FOR CREATING NAVBAR */
+    position: fixed;
+    right: 10px;
+    /* bottom: 20px; */
+
+    /* AGAR KISI KO KISI KE UPAR OVERLAP KRNA HO TO  */
+    /* z-index: 10;  */
+
+
+    height: 100px;
+    width: 100px;
+}
+body{
+    background-image: url("animal\ phot.jpg");
+    background-size: cover;
+}
