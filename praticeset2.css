@@ -1,0 +1,16 @@
+/* FORM MYHTML4.HTML */
+#mayank1{
+    height: 100px;
+    width: 100px;
+    background-image: url("animal\ phot.jpg");
+    background-size: cover;
+    background-color: black;
+    position: fixed;
+    right: 0px;
+    top: 50px;
+    
+}
+body{
+    background-color: black;
+    color: white;
+}
