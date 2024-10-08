@@ -1,0 +1,90 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    border: 5px solid black;
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    bottom: 250px;
+    align-items: center;
+    /* FOR MAKING IT CIRCLE */
+    border-radius: 50%;
+
+    /*  *******************TRANSITION*********************8 */
+    /* transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: steps(5);
+    transition-timing-function: ease-in;
+    transition-delay: 2s; */
+    /* ******************TRANSITION SHORTHAND*******************8 */
+    transition: all 2s ease-in;
+
+    /* *****************************************************************************************************88 */
+    /* transform: rotate(180deg); */
+
+    /* FOR MAKING SIZE BIGGER OF THE ELMENTS WE USE SCALE */
+    /* transform: scale(3); */
+
+
+    /*  ************ANIMATIONS***************** */
+    /* animation-name: colorAnimate;
+    animation-duration: 0.25s;
+    animation-timing-function: ease-in;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-direction: reverse;
+    animation-direction: alternate; */
+
+    /* ANIMATION SHORTHAND */
+    animation: colorAnimate 4s ease-in 1s infinite normal;
+}
+
+div:hover {
+    background-color: yellow;
+    color: aqua;
+    font-size: 20px;
+    /* transform: scaleY(2);
+    transform: scaleX(2); */
+    /* transform: rotate(180deg); */
+
+    /* transform: translate(100px);
+    transform: translateY(100px);
+    transform: translate(100px , 150px); */
+
+    /* transform: skew(30deg); */
+
+}
+
+@keyframes colorAnimate {
+    /* from {
+        background-color: yellow;
+    }
+
+    to {
+        background-color: green;
+    } */
+    0% {
+        background-color: yellow;
+    }
+    50%{
+        background-color: black;
+    }
+
+    100% {
+        background-color: green;
+    }
+
+    from {
+        left: 0px;
+    }
+
+    to {
+        left: 200px;
+    }
+}
+
+div :active {
+    background-color: aqua;
+}
